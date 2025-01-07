@@ -1,6 +1,6 @@
 ![This tutorial is courtesy of Dash0](./images/dash0-logo.png)
 
-# Instrumenting Spring applications with OpenTelemetry and Cloud-native Buildpacks
+# Instrumenting Spring applications with OpenTelemetry and Cloud Native Buildpacks
 
 In this tutorial, we are building a container image for a simple Spring Boot application using the support for [Cloud Native Buildpacks](https://buildpacks.io/) built into the Spring Boot tooling, and using Paketo's [OpenTelemetry buildpack](https://github.com/paketo-buildpacks/opentelemetry) to ensure that the OpenTelemetry Java agent is part of the container image, and that it can monitor our Spring Boot application with just a few configurations. 
 
@@ -21,7 +21,7 @@ In a nutshell, it is a framework with comprehensive facilities for configuring a
 If you are not familiar with Spring or Spring Boot, then go check out the breathtaking dev-rel work of [Josh Long a.k.a. @Starbuxman](https://github.com/joshlong).
 We'll wait.
 
-### About Cloud-native buildpacks
+### About Cloud Native buildpacks
 
 Everybody has written a Dockerfile or ten.
 But are your (or my) Dockerfiles amazing, configurable, maintainable and compliant?
