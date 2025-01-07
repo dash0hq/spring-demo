@@ -53,7 +53,7 @@ In short, OpenTelemetry is the best thing to happen in observability in a while:
 
 _From [What is OpenTelemetry?](https://www.dash0.com/faq/what-is-opentelemetry)_
 
-OpenTelemetry provides specifications and high-quality implementations of ways to collect logs, metrics and distributeds tracing data (a.k.a. spans) from your applications.
+OpenTelemetry provides specifications and high-quality implementations of ways to collect logs, metrics and distributed tracing data (a.k.a. spans) from your applications.
 The OpenTelemetry Java agent, specifically, is a one-stop shop to monitor your Java applications.
 And we are going to use it in this demo to monitor a simple Spring Boot application with barely a few configurations.
 
