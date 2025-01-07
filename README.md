@@ -148,5 +148,5 @@ _A thing of beauty, is it not?_
 Since you have gotten it this far, how about trying this demo with [Dash0](https://www.dash0.com/), the OpenTelemetry-native tool that makes observability simple and enjoyable?
 There's a free trial waiting for you, 14 days, no questions asked: https://www.dash0.com/sign-up
 
-You will find the values for to set for the `OTEL_EXPORTER_OTLP_ENDPOINT` and `OTEL_EXPORTER_OTLP_HEADERS` in the [OpenTelemetry Java onboarding instructions](https://app.dash0.com/onboarding/instructions/programming-languages/java).
+You will find the values to set for the `OTEL_EXPORTER_OTLP_ENDPOINT` and `OTEL_EXPORTER_OTLP_HEADERS` in the [OpenTelemetry Java onboarding instructions](https://app.dash0.com/onboarding/instructions/programming-languages/java).
 Enjoy!
