@@ -59,7 +59,15 @@ And we are going to use it in this demo to monitor a simple Spring Boot applicat
 
 ## Setup
 
-## Local Kubernetes cluster with Minikube
+### Local Kubernetes cluster with Minikube
+
+This one, we are delegating to the [official Starting Guide of minikube](https://minikube.sigs.k8s.io/docs/start).
+
+Oh, and why minikube?
+Because [`@mmanciop`](https://github.com/mmanciop) likes it.
+
+There's other options: [kind](https://kind.sigs.k8s.io/), [Docker desktop](https://www.docker.com/products/docker-desktop/)'s [built-in Kubernetes](https://docs.docker.com/desktop/features/kubernetes/), [microk8s](https://microk8s.io/), and probably a dozen more.
+Likely, the only things that will materially change are (1) how to ensure the container image is available withing the Kubernetes cluster, and (2) the setup for the ingress.
 
 ### Setting up an ingress controller
 
