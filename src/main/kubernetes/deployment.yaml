@@ -45,7 +45,16 @@ spec:
           - name: OTEL_EXPORTER_OTLP_HEADERS
             # Replace this with the HTTP headers your OTLP endpoint requires for authorization
             value: *otlp-auth-headers
+          - name: OTEL_METRICS_EXPORTER
+            # Activate OTLP exporter for metrics
+            value: otlp
+          - name: OTEL_LOGS_EXPORTER
+            # Activate OTLP exporter for logs
+            value: otlp
           - name: OTEL_RESOURCE_ATTRIBUTES
+            # Enhance resource attributes with important metadata
+            # from the k8s.* semantic conventions namespace
+            # https://opentelemetry.io/docs/specs/semconv/resource/k8s/
             value: k8s.namespace.name=$(K8S_NAMESPACE_NAME),k8s.pod.name=$(K8S_POD_NAME),k8s.pod.uid=$(K8S_POD_UID),k8s.container.name=$(K8S_CONTAINER_NAME)
         livenessProbe:
           httpGet:

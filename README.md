@@ -137,7 +137,7 @@ minikube tunnel
 On Mac OS X, this command might ask your password to be able to bind to the system ports `80` and `443`.
 
 And there you go!
-Your application should be available at http://demo.localdev.me
+Your application should be available at http://demo.localdev.me:
 
 ![The pinnacle of web design in all its glory](./images/demo-app.png)
 
